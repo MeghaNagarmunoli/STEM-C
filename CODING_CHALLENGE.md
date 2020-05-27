@@ -4,13 +4,13 @@ Hello :wave:
 
 Thank you for taking the time to interview with our team. We enjoyed getting to know you better. Based on your skills, passion, and interests, we have decided to move forward with your application. This challenge is designed to give us a glimpse at your practical development skills. 
 
-> In no way is this assessment or the project perfect. You may run into issues with the code or documentation. Don't worry too much about this, but please **document** any issues you run into.
+> In no way is this assessment or project perfect – we are still in pre-release development. You may run into issues with the code or documentation. Don't worry too much about this, but please **document** any problems, concerns, and feedback you may have.
 
 <br/>
 
 ## Objective
 
-Our project incorporates a lot of different user views. We want you to design a view that allows a user to select an activity from a list of topics. 
+Our project incorporates a lot of different user views. We want you to implement a view that allows a user to select an activity from a list of topics.
 
 <img src="./topics_view.png" style="float: left;" />
 
@@ -129,6 +129,8 @@ GET ``https://stem-c-staging.herokuapp.com/topics``
 
 ## Tasks
 
+> Please make sure to fill this section out as your work on the challenge. It will be included in your final submission. Feel free to makes notes and leave comments
+
 1. Setup	
    - [ ] Clone this [repository](https://github.com/STEM-C/STEM-C.git)
    - [ ] Checkout the branch **feature/coding-challenge**
@@ -148,28 +150,19 @@ GET ``https://stem-c-staging.herokuapp.com/topics``
      - [ ] Set the topics state with the response data
    - [ ] Render the topics 
 
-   - [ ] For each topic in the array, render a row with its name and description
+     - [ ] For each topic in the array, render a row with its name and description
 
-   - [ ] For each activity belonging to a topic, render a row with its name, difficulty, and learning category 
-
-     - [ ] Each activity row should be wrapped in a link that will take a user to the workspace (this is already implemented for you)
-
-       ```
-       <Link 
-       	to={`workspace/${topics[i].activities[i].name}`} 
-       	onClick={() => props.setSelectedActivity(topics[i].activities[i])}>
-         ...your activity row 
-       </Link>
-       ```
-
-     - [ ] **Bonus**: Only show a topic's activities on hover
+       - [ ] For each activity belonging to a topic, render a row with its name, difficulty, and learning category 
+    - [ ] Each activity row should be wrapped in a link (this is implemented for you in the code) that will take a user to the workspace view that has been previously implemented
+         - [ ] **Bonus**: Only show a topic's activities on hover
 
 3. Reflection
 
    1. Explain your implementation
    2. What challenges did you face?
-   3. How long did this challenge take you?
-   4. How can we improve our documentation?
+   3. How can we improve our documentation?
+   4. How can we improve our project structure?
+   5. How long did this take you?
 
 <hr/>
 
@@ -182,5 +175,7 @@ Please follow the instructions below to submit your work
 
 ## Submission
 
-Submit a zipped version of the **entire** project folder [here]()
+Submit a zipped version of the **entire** project folder [here](https://forms.gle/LjVKdpUC3NZ9WcqA6)
+
+> The folder that was downloaded when you cloned the repository
 
