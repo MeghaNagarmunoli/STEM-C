@@ -149,11 +149,9 @@ GET ``https://stem-c-staging.herokuapp.com/topics``
      - [ ] Call the topics api 
      - [ ] Set the topics state with the response data
    - [ ] Render the topics 
-
      - [ ] For each topic in the array, render a row with its name and description
-
        - [ ] For each activity belonging to a topic, render a row with its name, difficulty, and learning category 
-    - [ ] Each activity row should be wrapped in a link (this is implemented for you in the code) that will take a user to the workspace view that has been previously implemented
+         - [ ] Each activity row should be wrapped in a link (this is implemented for you in the code) that will take a user to the workspace view that has been previously implemented
          - [ ] **Bonus**: Only show a topic's activities on hover
 
 3. Reflection
@@ -169,7 +167,7 @@ GET ``https://stem-c-staging.herokuapp.com/topics``
 
 Congrats you have completed the code challenge :clap:
 
-Please follow the instructions below to submit your work
+Please follow the instructions below to submit your work.
 
 <br/>
 
