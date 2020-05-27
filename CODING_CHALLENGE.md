@@ -165,7 +165,7 @@ GET ``https://stem-c-staging.herokuapp.com/topics``
 <hr/>
 
 
-Congrats you have completed the code challenge :clap:
+Congrats! You have completed the code challenge :clap:
 
 Please follow the instructions below to submit your work.
 
