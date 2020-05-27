@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import { Route, Switch, Redirect } from 'react-router-dom'
 import Workspace from "./views/Workspace/Workspace"
-import Home from "./views/Home/Home"
+import Topics from "./views/Topics/Topics"
 import NotFound from "./views/NotFound"
 
 const App = () => {
@@ -13,11 +13,8 @@ const App = () => {
     return(
         <div>
             <Switch>
-                <Route exact path={"/Home"} render={(props) => <Home setSelectedActivity={setSelectedActivity} /> } />
-                <Route exact path ="/" >
-                    <Redirect to={"/Home"} />
-                </Route>
-                <Route path={"/Home/:projectId"} render = { (props) => <Workspace selectedActivity={selectedActivity} /> } />
+                <Route exact path={"/"} render={(props) => <Topics setSelectedActivity={setSelectedActivity} /> } />
+                <Route path={"/workspace/:projectId"} render = { (props) => <Workspace selectedActivity={selectedActivity} /> } />
                 <Route component={NotFound} />
             </Switch>
         </div>
