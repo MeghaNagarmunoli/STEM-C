@@ -6,9 +6,16 @@
 
 ## Setup
 
-The only setup required is running `yarn` to install project dependencies
+1. Install [Node](https://nodejs.org/en/) and [Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable)
+2. Run `yarn` to install project dependencies
 
 <br />
+
+## Routing
+
+All client routes must be registered in the cms frontend middleware to ensure they are handled by react. Additional information and implementation instructions are in the [cms](/cms#static-assets) documentation.
+
+<br/>
 
 ## Available Scripts
 
